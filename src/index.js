@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 
+
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <App />
+    </Provider>,
   document.getElementById('container')
 );
-
-
